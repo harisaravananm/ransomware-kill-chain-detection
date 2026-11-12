@@ -12,6 +12,19 @@ an LSTM for temporal sequences, tunes their ensemble weight on validation data,
 explains predictions with SHAP and LIME, and signs generated alerts with
 ML-DSA-65 and ML-KEM-768.
 
+## Dataset
+
+The pipeline uses the [CIC-IDS2018 dataset](https://www.unb.ca/cic/datasets/ids-2018.html)
+from the Canadian Institute for Cybersecurity. The project expects the
+preprocessed flow file `data/network_traffic.csv`; `load_cic.py` and
+`src/cic_loader.py` map CIC-IDS2018 fields and labels into the 17 project
+features and five kill-chain stages used by the models.
+
+The original `*TrafficForML_CICFlowMeter.csv` exports are not included in this
+repository because they are multi-gigabyte files and exceed GitHub file-size
+limits. Download the source data separately, then run the loader to recreate
+the prepared input locally.
+
 ## Pipeline
 
 ```mermaid
