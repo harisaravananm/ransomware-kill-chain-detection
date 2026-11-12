@@ -1,0 +1,11 @@
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv: 1044525 flows, labels {0: 758334, 2: 286191}
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv: 1048574 flows, labels {0: 446772, 4: 601802}
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv: 1042301 flows, labels {0: 1042301}
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv: 1040548 flows, labels {0: 988050, 4: 52498}
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv: 1042603 flows, labels {0: 1042603}
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv: 1044751 flows, labels {0: 663808, 1: 380943}
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv: 1048575 flows, labels {0: 360833, 4: 687742}
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv: 606902 flows, labels {0: 538666, 3: 68236}
+train: 36888 windows, per class [8000, 8000, 8000, 4888, 8000]
+val: 6421 windows, per class [1500, 1500, 1500, 421, 1500]
+test: 9517 windows, per class [2000, 2000, 2000, 1517, 2000]

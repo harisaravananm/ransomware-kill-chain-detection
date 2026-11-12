@@ -1,0 +1,21 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local tooling
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Large raw datasets and generated binary artifacts
+data/*.csv
+data/*.npz
+output/*.pkl
+output/*.h5
+
+# Local secrets and logs
+.env
+*.log
