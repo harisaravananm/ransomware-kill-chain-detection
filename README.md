@@ -81,18 +81,18 @@ artifacts under `data/` and `output/` before running.
 
 ```text
 .
-├── config.py                 # Features, labels, paths, and hyperparameters
-├── main.py                   # End-to-end training and evaluation pipeline
-├── src/
-│   ├── build_dataset.py      # Dataset loading and sequence construction
-│   ├── models/               # RF, LSTM, and ensemble models
-│   ├── explainability.py     # SHAP and LIME explanations
-│   ├── alert_system.py       # Alert generation and signed logs
-│   ├── pqc/                  # ML-DSA and ML-KEM integration
-│   └── visualizations.py     # Publication-ready figures
-├── output/figures/           # Curated visual outputs
-├── requirements.txt
-└── test_pqc.py
+â”œâ”€â”€ config.py                 # Features, labels, paths, and hyperparameters
+â”œâ”€â”€ main.py                   # End-to-end training and evaluation pipeline
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ build_dataset.py      # Dataset loading and sequence construction
+â”‚   â”œâ”€â”€ models/               # RF, LSTM, and ensemble models
+â”‚   â”œâ”€â”€ explainability.py     # SHAP and LIME explanations
+â”‚   â”œâ”€â”€ alert_system.py       # Alert generation and signed logs
+â”‚   â”œâ”€â”€ pqc/                  # ML-DSA and ML-KEM integration
+â”‚   â””â”€â”€ visualizations.py     # Publication-ready figures
+â”œâ”€â”€ output/figures/           # Curated visual outputs
+â”œâ”€â”€ requirements.txt
+â””â”€â”€ test_pqc.py
 ```
 
 ## Supporting scripts
@@ -111,7 +111,7 @@ environment before using them in production.
 
 ## License
 
-Copyright © 2026 Hari Saravanan M.
+Copyright Â© 2026 Hari Saravanan M.
 
 Licensed under the Apache License, Version 2.0. See [`LICENSE`](LICENSE) for
 the full text.
